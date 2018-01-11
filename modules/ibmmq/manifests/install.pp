@@ -3,7 +3,7 @@ class ibmmq::install{
     command => "/root/MQServer/./mqlicense.sh -accept"
   }
   exec{"install":
-    command => "rpm -ivh /root/MQServer/*.rpm",
+    command => "rpm -ivh /root/MQServer/MQSeries*.rpm",
   }
   
   
