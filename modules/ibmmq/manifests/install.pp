@@ -1,6 +1,6 @@
 class ibmmq::install{
   exec{"accept":
-    command => "/root/MQServer/./mqlicense.sh -accept"
+    command => "/root/MQServer/mqlicense.sh -accept"
   }
   package{"install":
     provider =>rpm,
