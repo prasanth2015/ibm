@@ -1,5 +1,5 @@
 class ibmmq::users{
   exec{"password":
-    command =>"echo sarasu10 |passwd  --stdin mqm",
+    command =>"echo sarasu10 |/usr/bin/passwd  --stdin mqm",
   }
 }
