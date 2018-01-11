@@ -13,5 +13,5 @@
 class ibmmq {
 #include ibmmq::copy
 include ibmmq::install
-include ibmmq::users
+#include ibmmq::users
 }
