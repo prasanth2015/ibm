@@ -1,3 +1,0 @@
-# ibmmq #
-
-This is the ibmmq module. It provides...
